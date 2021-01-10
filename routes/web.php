@@ -34,8 +34,8 @@ Route::group(['middleware' => ['auth','admin']], function(){
     Route::put('/role-register-update/{id}','Admin\DashboardController@registerupdate');
     Route::delete('/role-delete/{id}','Admin\DashboardController@registerdelete');
     Route::get('/abouts','Admin\AboutController@index');
-
-
+    Route::get('/examplaires','ExamplaireController@index');
+    Route::post('/examplaires','ExamplaireController@store');
 
 });
 

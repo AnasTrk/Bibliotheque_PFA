@@ -78,6 +78,12 @@
               <p>Typography</p>
             </a>
           </li>
+          <li>
+            <a href="/examplaires">
+              <i class="now-ui-icons text_caps-small"></i>
+              <p>EXAMPLAIRES</p>
+            </a>
+          </li>
           <li class="active-pro">
             <a href="#">
               <i class="now-ui-icons arrows-1_cloud-download-93"></i>
